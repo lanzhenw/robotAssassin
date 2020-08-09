@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.gameBoard {
+  margin:30px auto;
+  min-width:400px
+}
+
+.cell {
+  background-color: lightgray;
+  width: 14vw;
+  height: 14vw;
+  min-width: 80px;
+  min-height: 80px;
+  max-width:125px;
+  max-height:125px;
+  /* border: 1px solid grey; */
+  color:white;
+  font-size:15px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.cell-0 {
+  background-color: grey
+}
+
+.cell-1 {
+  background-color: lightgreen
+}
+
+.row {
+  display:flex;
+  flex-direction:row;
+  justify-content: center
+}
+
+.bot-occupied {
+  display: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: lightsalmon;
+}
+
+.bot {
+  width: 20px;
+  height: 20px;
+  /* background-color: lightsalmon; */
+  display: hidden;
+}

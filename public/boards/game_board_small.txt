@@ -1,0 +1,28 @@
+OkunevaField up=VonMeadow right=KunzeGreen left=StreichFort down=HilllPorts
+RuntePike up=RusselSpur right=JakubowskiLoop left=MayerInlet down=StreichFort
+PiperStreets up=HesselInlet
+StrackeSprings right=HesselInlet
+JakubowskiLoop up=WilfordSummit left=RuntePike
+MayerInlet up=LisaWays right=RuntePike
+CletaMall down=RusselSpur
+RusselSpur up=CletaMall down=RuntePike
+VonMeadow up=EdwardDrive right=HudsonVille down=OkunevaField
+DavidCrescent up=MonserrateCenters right=DonnellyPoint down=JayceUnions
+EdwardDrive down=VonMeadow
+JerdeLand left=HilllPorts
+WeissnatCamp down=LibbieView
+EvaMotorway up=HilllPorts
+MonserrateCenters up=StreichFort right=LibbieView left=DamarisSquares down=DavidCrescent
+HesselInlet up=YadiraRoute right=StreichFort left=StrackeSprings down=PiperStreets
+LisaWays down=MayerInlet
+YadiraRoute down=HesselInlet
+HilllPorts up=OkunevaField right=JerdeLand down=EvaMotorway
+DamarisSquares up=ZulaufVista right=MonserrateCenters
+LibbieView up=WeissnatCamp left=MonserrateCenters
+JayceUnions up=DavidCrescent
+KunzeGreen left=OkunevaField
+DonnellyPoint left=DavidCrescent
+StreichFort up=RuntePike right=OkunevaField left=HesselInlet down=MonserrateCenters
+ZulaufVista down=DamarisSquares
+WilfordSummit down=JakubowskiLoop
+HudsonVille left=VonMeadow
